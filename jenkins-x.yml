@@ -5,4 +5,6 @@ pipelineConfig:
   env:
   - name: DEPLOY_NAMESPACE
     value: jx-staging
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jx.34.68.246.182.nip.io
   pipelines: {}
